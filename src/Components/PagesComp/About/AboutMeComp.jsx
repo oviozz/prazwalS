@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Tooltip from '@mui/joy/Tooltip';
 import { useState } from 'react';
 import aboutMePic from '/src/Components/Assests/myself.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 function AboutMeSocials() {
@@ -80,7 +82,8 @@ function AboutMeComp() {
 
                 <div className="mt-7 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 animate-fade-down">
                     <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                        <img
+                        <LazyLoadImage
+                            effect={'blur'}
                             alt="Prajwal Sharma"
                             src={aboutMePic}
                             className="rounded-lg absolute inset-0 h-full w-full object-cover "
