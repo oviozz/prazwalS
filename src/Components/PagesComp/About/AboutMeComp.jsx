@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Tooltip from '@mui/joy/Tooltip';
 import { useState } from 'react';
+import aboutMePic from '/src/Components/Assests/myself.png'
 
 
 function AboutMeSocials() {
@@ -81,7 +82,7 @@ function AboutMeComp() {
                     <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                         <img
                             alt="Prajwal Sharma"
-                            src="src/Components/Assests/myself.png"
+                            src={aboutMePic}
                             className="rounded-lg absolute inset-0 h-full w-full object-cover "
                         />
                     </div>
