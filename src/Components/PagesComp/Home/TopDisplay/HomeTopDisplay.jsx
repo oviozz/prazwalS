@@ -16,7 +16,7 @@ function HomeTopDisplay() {
 
                 <div className={"relative inline-block"}>
 
-                    <img src={"src/Components/Assests/profilePic.png"} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
+                    <img src={"Assests/profilePic.png"} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
 
                     <span
                         className="absolute translate-x-1/2 left-auto top-0 right-0 inline-flex items-center bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
