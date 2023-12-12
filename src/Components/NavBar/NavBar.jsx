@@ -3,7 +3,7 @@ import NavBarButton from "./NavBarButton.jsx";
 import './NavBar.css'
 
 import { CiHeart, CiMap, CiChat1, CiAt, CiExport } from "react-icons/ci";
-import { PiGithubLogoThin } from "react-icons/pi";
+import { CiLinkedin } from "react-icons/ci";
 import './NavBar.css'
 
 function NavBar(){
@@ -22,7 +22,7 @@ function NavBar(){
 
                 <div className="separator"></div>
 
-                <NavBarButton icon={PiGithubLogoThin} title={"github/prajwal"} path={'https://github.com/oviozz'} target={'_blank'}/>
+                <NavBarButton icon={CiLinkedin} title={"linkedin/prajwal"} path={'https://www.linkedin.com/in/prajwal-sharma-b99b31221/'} target={'_blank'}/>
 
             </div>
         </div>

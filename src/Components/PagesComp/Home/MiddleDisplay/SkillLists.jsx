@@ -15,8 +15,6 @@ const SkillLists = () => {
         'https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-black-and-white.png',
         'https://cdn.freebiesupply.com/logos/large/2x/django-logo-black-and-white.png',
         'https://cdn.freebiesupply.com/logos/large/2x/nodejs-logo-black-and-white.png',
-
-
     ];
 
     return (
