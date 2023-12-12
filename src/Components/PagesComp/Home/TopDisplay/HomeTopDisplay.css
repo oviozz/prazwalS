@@ -1,0 +1,27 @@
+
+
+.myName{
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+}
+
+
+.homepageText{
+    font-weight: 500;
+}
+
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.rotating-text {
+    animation: rotate 15s linear infinite;
+    transform-origin: 50% 50%;
+    transition: 1s fill;
+    fill: #ffffff;
+}
+
+

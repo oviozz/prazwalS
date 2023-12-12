@@ -1,0 +1,13 @@
+
+
+.personTitle{
+    font-family: 'Instrument Serif', serif;
+}
+
+.buttonDetail {
+    transition: all 0.3s ease;
+}
+
+.detailBtn:hover .buttonDetail{
+    transform: rotate(-180deg);
+}

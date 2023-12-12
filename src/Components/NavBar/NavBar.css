@@ -1,0 +1,25 @@
+
+.glassCard{
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(77, 77, 77, 0.3);
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    width: max-content;
+
+}
+
+.separator {
+    width: 1px;
+    background-color: rgba(204, 204, 204, 0.2);
+    margin: 5px 0; /* Adjust the margin to control the space around the separator */
+}
