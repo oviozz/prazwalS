@@ -1,25 +1,35 @@
 
+import csulbClass from '/src/Components/Assests/csulbclass.png'
+import anapa from '/src/Components/Assests/anapa.png'
+import cryptoView from '/src/Components/Assests/cryptoView.png'
+import emergsync from '/src/Components/Assests/emergsync.png'
+import budgetpal from '/src/Components/Assests/budgetpal.png'
+import job4job from '/src/Components/Assests/job4job.png'
+import tastybites from '/src/Components/Assests/tastymeals.png'
+import movieReview from '/src/Components/Assests/movieReview.png'
+
+
 
 export const projectDatas = [
     {
         title: "csulbClass",
         description:
             "Improve your CSULB class selection experience with a user-friendly interface, detailed professor information, and class reviews.",
-        imageUrl: "src/Components/Assests/csulbclass.png",
+        imageUrl: csulbClass,
         projectUrl: 'https://csulbclass.vercel.app/'
     },
     {
         title: 'anapa',
         description:
             'Simplify your shopping experience with ANAPA, a React and TailwindCSS-powered apparel store.',
-        imageUrl: 'src/Components/Assests/anapa.png',
+        imageUrl: anapa,
         projectUrl: 'https://anapa.vercel.app/'
 
     },
     {
         title: 'cryptoView',
         description: 'A cryptocurrency price tracking website that allows users to view prices of various cryptocurrencies.',
-        imageUrl: 'src/Components/Assests/cryptoView.png',
+        imageUrl: cryptoView,
         projectUrl: 'https://cryptoz-view.vercel.app/'
 
     },
@@ -27,7 +37,7 @@ export const projectDatas = [
         title: "EmergenSync",
         description:
             "Streamline emergency room operations with the Ambulance Optimization Platform and Hospital Management Platform. ",
-        imageUrl: "src/Components/Assests/emergsync.png",
+        imageUrl: emergsync,
         projectUrl: 'https://github.com/shivstaa/EmergenSync'
 
     },
@@ -35,7 +45,7 @@ export const projectDatas = [
         title: "BudgetPal",
         description:
             "Effortlessly manage your finances by tracking receipts and visualizing expenditure patterns with BudgetPal.",
-        imageUrl: "src/Components/Assests/budgetpal.png",
+        imageUrl: budgetpal,
         projectUrl: 'https://github.com/oviozz/BudgetPal'
 
     },
@@ -43,7 +53,7 @@ export const projectDatas = [
         title: "Job4Job",
         description:
             "Facilitate the exchange of services among individuals with Job4Job. Discover and trade skills effortlessly.",
-        imageUrl: "src/Components/Assests/job4job.png",
+        imageUrl: job4job,
         projectUrl: 'https://github.com/oviozz/Job4Job'
 
     },
@@ -51,7 +61,7 @@ export const projectDatas = [
         title: 'TastyBites',
         description:
         'A website presenting an array of food categories and their respective recipes, enabling users to explore and access comprehensive dish information.',
-        imageUrl: 'src/Components/Assests/tastymeals.png',
+        imageUrl: tastybites,
         projectUrl: 'https://github.com/oviozz/TastyBites'
 
     },
@@ -59,7 +69,7 @@ export const projectDatas = [
         title: 'Movie Review',
         description:
             'A desktop movie review application built using PyQt, allowing users to view reviews in over 5 languages',
-        imageUrl: 'src/Components/Assests/movieReview.png',
+        imageUrl: movieReview,
         projectUrl: 'https://github.com/oviozz/movie_review_app'
 
     },
