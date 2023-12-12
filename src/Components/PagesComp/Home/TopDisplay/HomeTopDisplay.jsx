@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { HiOutlineArrowDown } from "react-icons/hi2";
 import Badge from '@mui/joy/Badge';
-import profilePic from '../Components/Assests/profilePic.jpg'
+import profilePic from '/src/Components/Assests/profilePic.jpg'
 
 
 
