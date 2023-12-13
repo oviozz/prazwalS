@@ -12,7 +12,7 @@ function ResumeComp(){
 
         setresumeBtnText("Downloaded");
 
-        fetch("src/Data/PrajwalSharmaResume.pdf").then((response) => {
+        fetch("/src/Data/PrajwalSharmaResume.pdf").then((response) => {
             response.blob().then((blob) => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let downloadLink = document.createElement("a");
