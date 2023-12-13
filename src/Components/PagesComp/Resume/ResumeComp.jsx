@@ -2,7 +2,9 @@
 import './ResumeComp.css'
 import { MdOutlineFileDownload } from "react-icons/md";
 import {prajwalResume} from "../../../Data/ResumeData.jsx";
+import {prajwalPdf} from "../../../Data/PrajwalSharmaResume.pdf";
 import {useState} from "react";
+
 
 function ResumeComp(){
 
@@ -12,7 +14,7 @@ function ResumeComp(){
 
         setresumeBtnText("Downloaded");
 
-        fetch("/src/Data/PrajwalSharmaResume.pdf").then((response) => {
+        fetch(prajwalPdf).then((response) => {
             response.blob().then((blob) => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let downloadLink = document.createElement("a");
