@@ -2,7 +2,7 @@
 import './ResumeComp.css'
 import { MdOutlineFileDownload } from "react-icons/md";
 import {prajwalResume} from "../../../Data/ResumeData.jsx";
-import {prajwalPdf} from "../../../Data/PrajwalSharmaResume.pdf";
+import {prajwalPdf} from "/src/Data/PrajwalSharmaResume.pdf";
 import {useState} from "react";
 
 
