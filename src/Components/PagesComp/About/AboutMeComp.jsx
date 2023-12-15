@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Tooltip from '@mui/joy/Tooltip';
 import { useState } from 'react';
-import aboutMePic from '/src/Components/Assests/myself.png'
+import aboutMePic from '/src/Components/Assests/myself.jpg'
 import {Blurhash} from "react-blurhash";
 
 function AboutMeSocials() {
