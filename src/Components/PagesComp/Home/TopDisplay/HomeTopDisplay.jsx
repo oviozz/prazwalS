@@ -4,7 +4,7 @@ import './HomeTopDisplay.css'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { HiOutlineArrowDown } from "react-icons/hi2";
-import Badge from '@mui/joy/Badge';
+import profilePic from '/src/Components/Assests/profilePic.jpg'
 
 
 function HomeTopDisplay() {
@@ -16,7 +16,7 @@ function HomeTopDisplay() {
 
                 <div className={"relative inline-block"}>
 
-                    <img src={"src/Components/Assests/profilePic.jpg"} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
+                    <img src={profilePic} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
 
                     <span
                         className="absolute translate-x-1/2 left-auto top-0 right-0 inline-flex items-center bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">

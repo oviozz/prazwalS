@@ -1,9 +1,11 @@
 
+import React, {useEffect} from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Tooltip from '@mui/joy/Tooltip';
 import { useState } from 'react';
-
+import aboutMePic from '/src/Components/Assests/myself.jpg'
+import {Blurhash} from "react-blurhash";
 
 function AboutMeSocials() {
 
@@ -70,6 +72,18 @@ function AboutMeSocials() {
 }
 
 function AboutMeComp() {
+
+    const blurHash = 'L4Av@3~p^z01KBR-D*-n0002M|?a';
+    const [ImageLoaded, setImageLoaded] = useState(false)
+
+    useEffect(() => {
+        const img = new Image();
+        img.onload = () => {
+            setImageLoaded(true);
+        }
+        img.src = aboutMePic
+    }, [])
+
     return (
         <section>
             <div className="animate-fade-down mx-auto max-w-screen-xl px-7 py-10 sm:px-6 sm:py-17 lg:px-8">
@@ -79,11 +93,32 @@ function AboutMeComp() {
 
                 <div className="mt-7 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 animate-fade-down">
                     <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                        <img
-                            alt="Prajwal Sharma"
-                            src="src/Components/Assests/myself.png"
-                            className="rounded-lg absolute inset-0 h-full w-full object-cover "
-                        />
+
+                        { !ImageLoaded && (
+                            <div className={"rounded-lg absolute inset-0 h-full w-full object-cover "}>
+                                <Blurhash
+                                    hash={blurHash}
+                                    width={800}
+                                    height={600}
+                                    resolutionX={32}
+                                    resolutionY={32}
+                                    punch={1}
+                                    style={{ width: '100%', height: '100%', borderRadius: '10px' }}
+                                />
+                            </div>
+
+                        )}
+
+                        {
+                            ImageLoaded && (
+                                <img
+                                    alt="Prajwal Sharma"
+                                    src={aboutMePic}
+                                    className="rounded-lg absolute inset-0 h-full w-full object-cover "
+                                />
+                            )
+                        }
+
                     </div>
 
                     <div className="lg:py-14">
