@@ -119,6 +119,29 @@ function AboutMeComp() {
                             )
                         }
 
+
+                        { !ImageLoaded && (
+                            <Blurhash
+                                hash={blurHash}
+                                width={800}
+                                height={600}
+                                resolutionX={32}
+                                resolutionY={32}
+                                punch={1}
+                                style={{ width: '100%', height: '100%' }}
+                            />
+                        )}
+
+                        {
+                            ImageLoaded && (
+                                <img
+                                    alt="Prajwal Sharma"
+                                    src={aboutMePic}
+                                    className="rounded-lg absolute inset-0 h-full w-full object-cover "
+                                />
+                            )
+                        }
+
                     </div>
 
                     <div className="lg:py-14">

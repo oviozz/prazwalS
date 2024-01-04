@@ -5,6 +5,7 @@ import {prajwalResume} from "../../../Data/ResumeData.jsx";
 
 import {useState} from "react";
 
+
 function ResumeComp(){
 
     const [resumeBtnText, setresumeBtnText] = useState("Download Resume");

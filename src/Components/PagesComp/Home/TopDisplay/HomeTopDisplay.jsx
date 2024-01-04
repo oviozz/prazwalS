@@ -7,6 +7,7 @@ import { HiOutlineArrowDown } from "react-icons/hi2";
 import profilePic from '/src/Components/Assests/profilePic.jpg'
 
 
+
 function HomeTopDisplay() {
 
     return (
