@@ -17,7 +17,7 @@ function App() {
             <div className={"lg:block hidden"}>
                 <AnimatedCursor
                     color="255,255,255"
-                    trailingSpeed={3}
+                    trailingSpeed={2}
                     clickables={['span','button', 'a','p', 'img']}
                     innerSize={8}
                     outerSize={40}
