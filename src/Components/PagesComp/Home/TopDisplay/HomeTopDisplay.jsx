@@ -19,14 +19,12 @@ function HomeTopDisplay() {
 
                     <img src={profilePic} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
 
-                    <div className={"animate-fade-up animate-delay-[200ms] absolute top-0 right-0"}>
-                        <span
-                            className=" translate-x-1/2 inline-flex items-center bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                    <span
+                        className="absolute translate-x-1/2 left-auto top-0 right-0 inline-flex items-center bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                         <span className="absolute inline-flex  w-2 h-2 animate-pulse me-1 bg-green-500 rounded-full"></span>
                         <span className="relative w-2 h-2 animate-ping me-1 bg-green-500 rounded-full"></span>
                         Available
                     </span>
-                    </div>
                 </div>
 
                 <div className="mt-5 max-w-3xl text-center mx-auto animate-fade-up animate-delay-[200ms]">
