@@ -1,11 +1,10 @@
 
 import React from 'react';
 import './HomeTopDisplay.css'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { HiOutlineArrowDown } from "react-icons/hi2";
 import profilePic from '/src/Components/Assests/profilePic.jpg'
-
+import imageResize from "/src/Components/Assests/imageResize.jpeg";
 
 
 function HomeTopDisplay() {
@@ -17,7 +16,7 @@ function HomeTopDisplay() {
 
                 <div className={"relative inline-block"}>
 
-                    <img src={profilePic} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'}/>
+                    <img src={profilePic} className={'rounded-full border-[4px] border-white drop-shadow-2xl  animate-fade-up'} width={'100'} height={'100'} alt='profile pic face'/>
 
                     <span
                         className="absolute translate-x-1/2 left-auto top-0 right-0 inline-flex items-center bg-purple-100 border-2 border-purple-300  text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
@@ -29,16 +28,17 @@ function HomeTopDisplay() {
 
                 <div className="mt-5 max-w-3xl text-center mx-auto animate-fade-up animate-delay-[200ms]">
                     <h1 className="text-3xl md:text-4xl lg:text-4xl">
-                        <span className={'font-semibold myName '}>I'm Prajwal — </span>
+                        <span className={'font-semibold myName '}>I&apos;m Prajwal — </span>
                         a Full Stack developer passionate about creating memorable digital experiences.
                     </h1>
                 </div>
 
                 <div className="mt-5 max-w-3xl text-center mx-auto animate-fade-up animate-delay-[400ms]">
                     <p className="lg:text-2xl text-xl font-light ">
-                        I'm a <span className={"font-semibold bg-gradient-to-tl from-slate-700 via-violet-700 to-zinc-100 bg-clip-text text-transparent font-bold"}>CSULB</span> student passionate about software development and eager to become a professional developer.
+                        I&apos;m a <span className={"font-semibold bg-gradient-to-tl from-slate-700 via-violet-700 to-zinc-100 bg-clip-text text-transparent font-bold"}>CSULB</span> student passionate about software development and eager to become a professional developer.
                     </p>
                 </div>
+
 
 
                 <div className="lg:mt-20 mt-10 text-center relative flex items-center justify-center animate-fade-up animate-delay-[900ms]">

@@ -123,15 +123,15 @@ function ResumeComp(){
                                 <ol className="relative border-s border-white">
 
                                     <li className="mb-5 ms-4">
-                                        <div className="absolute w-3 h-3 bg-violet-700 shadow-2xl rounded-full mt-1.5 -start-1.5 border-2 border-white dark:border-gray-200 dark:bg-gray-200"></div>
-                                        <time className="mb-1 lg:text-xl text-sm font-normal leading-none text-white dark:text-gray-500">
+                                        <div className="absolute w-3 h-3 bg-violet-700 shadow-2xl rounded-full mt-1.5 -start-1.5 border-2 border-white"></div>
+                                        <time className="mb-1 lg:text-xl text-sm font-normal leading-none text-white ">
                                             {resumeData.education.degree}. {resumeData.education.gpa}
                                         </time>
-                                        <h3 className="lg:text-xl text-1xl font-semibold text-white dark:text-gray-900">{resumeData.education.school}</h3>
+                                        <h3 className="lg:text-xl text-1xl font-semibold text-white ">{resumeData.education.school}</h3>
 
                                         <div className={"flex gap-2"}>
                                             <h1 className={"font-bold lg:text-xl text-xl"}>Courses:</h1>
-                                            <ul className="lg:flex lg:gap-3 mb-4 text-base font-normal text-white dark:text-gray-400">
+                                            <ul className="lg:flex lg:gap-3 mb-4 text-base font-normal text-white">
                                                 {
                                                     resumeData.education.courses.map((courses,index) => (
                                                         <li className={'underline lg:text-xl text-md'} key={index}>{`${courses},`}</li>
@@ -161,9 +161,9 @@ function ResumeComp(){
                                     {
                                         resumeData.projects.map((project, index) => (
                                             <li key={index} className="mb-10 ms-4">
-                                                <div className="bg-violet-700 shadow-2xl absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -start-1.5 border-2 border-white dark:border-gray-200 dark:bg-gray-200"></div>
-                                                <h3 className="lg:text-2xl text-xl font-semibold text-white dark:text-gray-900">{project.name}</h3>
-                                                <p className="mb-4  font-normal text-white dark:text-gray-400 text-xl">{project.description}</p>
+                                                <div className="bg-violet-700 shadow-2xl absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border-2 border-white"></div>
+                                                <h3 className="lg:text-2xl text-xl font-semibold text-white">{project.name}</h3>
+                                                <p className="mb-4  font-normal text-white  text-xl">{project.description}</p>
 
 
                                                 <div className={"flex gap-2"}>
@@ -204,7 +204,7 @@ function ResumeComp(){
                                 <section className="mb-2 break-inside-avoid">
                                     <header>
 
-                                        <div className="absolute w-3 h-3 bg-violet-700 shadow-2xl rounded-full mt-1.5 -start-1.5 border-2 border-white dark:border-gray-200 dark:bg-gray-200"></div>
+                                        <div className="absolute w-3 h-3 bg-violet-700 shadow-2xl rounded-full mt-1.5 -start-1.5 border-2 border-white "></div>
                                         <h3 className=" lg:text-xl text-xl font-semibold leading-snugish ml-5">
                                             Front-End Developer
                                         </h3>
