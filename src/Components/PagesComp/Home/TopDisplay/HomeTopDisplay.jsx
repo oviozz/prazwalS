@@ -28,7 +28,7 @@ function HomeTopDisplay() {
 
                 <div className="mt-5 max-w-3xl text-center mx-auto animate-fade-up animate-delay-[200ms]">
                     <h1 className="text-3xl md:text-4xl lg:text-4xl">
-                        <span className={'myName italic font-semibold'}>I&apos;m Prajwal ✦ </span>
+                        <span className={'font-semibold myName '}>I&apos;m Prajwal — </span>
                         a Full Stack developer passionate about creating memorable digital experiences.
                     </h1>
                 </div>
