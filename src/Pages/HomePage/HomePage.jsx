@@ -4,7 +4,6 @@ import HomeTopDisplay from "../../Components/PagesComp/Home/TopDisplay/HomeTopDi
 import HomeMiddleDisplay from "../../Components/PagesComp/Home/MiddleDisplay/HomeMiddleDisplay.jsx";
 
 import './HomePage.css'
-import {ProjectCard} from "../../Components/PagesComp/Home/MiddleDisplay/ProjectCard.jsx";
 import Footer from "../../Components/PagesComp/Footer/Footer.jsx";
 import {useEffect} from "react";
 
