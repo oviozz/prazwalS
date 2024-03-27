@@ -154,7 +154,7 @@ function AboutMeComp() {
                             </p>
 
                             <p>
-                                My journey in the realm of web development has been nothing short of exhilarating. From crafting elegant front-end interfaces to architecting robust back-end systems, I thrive on bringing ideas to life in the digital space. My dedication to learning and staying at the forefront of industry trends fuels my desire to create meaningful and impactful solutions.
+                                My journey in <span className={"bg-gradient-to-tl from-slate-100 via-violet-500 to-zinc-400 bg-clip-text text-transparent font-bold"}>full stack development</span> has been exciting. I enjoy creating attractive website designs and building strong backend systems. Learning new things and keeping up with industry trends is important to me. I'm passionate about making useful and innovative solutions.
                             </p>
 
 

@@ -7,7 +7,7 @@ import budgetpal from '/src/Components/Assests/budgetpal.png'
 import job4job from '/src/Components/Assests/job4job.png'
 import tastybites from '/src/Components/Assests/tastymeals.png'
 import movieReview from '/src/Components/Assests/movieReview.png'
-
+import nextSocialImage from '/src/Components/Assests/nextSocialImage.png'
 
 
 export const projectDatas = [
@@ -17,6 +17,12 @@ export const projectDatas = [
             "Improve your CSULB class selection experience with a user-friendly interface, detailed professor information, and class reviews.",
         imageUrl: csulbClass,
         projectUrl: 'https://csulbclass.vercel.app/'
+    },
+    {
+        title: 'NextSocial',
+        description: 'Dynamic social media platform powered by NextJS, Tailwind CSS, MongoDB, and Firebase with seamless navigation, stylish UI, efficient DB, secure image storage, and hassle-free auth.',
+        imageUrl: nextSocialImage, // Replace nextSocialImage with the actual image URL
+        projectUrl: 'https://socialnext.vercel.app/'
     },
     {
         title: 'anapa',

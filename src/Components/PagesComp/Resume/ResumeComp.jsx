@@ -163,7 +163,7 @@ function ResumeComp(){
                                             <li key={index} className="mb-10 ms-4">
                                                 <div className="bg-violet-700 shadow-2xl absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border-2 border-white"></div>
                                                 <h3 className="lg:text-2xl text-xl font-semibold text-white">{project.name}</h3>
-                                                <p className="mb-4  font-normal text-white  text-xl">{project.description}</p>
+                                                <p className="mb-4  font-normal text-white  text-md ">{project.description}</p>
 
 
                                                 <div className={"flex gap-2"}>
