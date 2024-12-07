@@ -17,7 +17,6 @@ function AboutPage(){
 
             <div className={'page-wrapper'}>
                 <AboutMeComp />
-
             </div>
         </>
     )

@@ -150,7 +150,7 @@ function AboutMeComp() {
                             <AboutMeSocials />
 
                             <p >
-                                Hello there! I'm <span className={'bg-gradient-to-tl from-slate-100 via-violet-500 to-zinc-400 bg-clip-text text-transparent font-bold'}>Prajwal Sharma</span>, a passionate full-stack developer based in the beautiful state of California. Currently, I'm pursuing my studies at Cal State University, where I'm diving deep into the fascinating world of technology.
+                                {"Hello there! I'm"} <span className={'bg-gradient-to-tl from-slate-100 via-violet-500 to-zinc-400 bg-clip-text text-transparent font-bold'}>Prajwal Sharma</span>, a passionate full-stack developer based in the beautiful state of California. Currently, I'm pursuing my studies at Cal State University, where I'm diving deep into the fascinating world of technology.
                             </p>
 
                             <p>

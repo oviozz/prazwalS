@@ -13,7 +13,6 @@ function App() {
 
     return (
         <NavBarLayout>
-
             <div className={"lg:block hidden"}>
                 <AnimatedCursor
                     color="255,255,255"
@@ -33,7 +32,6 @@ function App() {
                         mixBlendMode: 'exclusion'
                     }}
                 />
-
             </div>
 
             <Routes>
@@ -42,7 +40,6 @@ function App() {
                 <Route path={'/projects'} element={<ProjectPage />} />
                 <Route path={'/resume'} element={<ResumePage />} />
             </Routes>
-
         </NavBarLayout>
     )
 

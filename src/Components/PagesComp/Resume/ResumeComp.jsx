@@ -246,15 +246,24 @@ function ResumeComp(){
 
 
                                             <div className={"flex gap-2 lg:mt-0 mt-5 "}>
-                                                <h1 className={"font-bold lg:text-xl text-xl"}>DeveloperTools:</h1>
+                                                <h1 className={"font-bold lg:text-xl text-xl"}>Databases:</h1>
 
                                                 <ul className={"flex flex-wrap gap-2 "}>
-                                                    {resumeData.technicalSkills.developerTools.map((framework, index) => (
-                                                        <li className={'underline lg:text-xl text-1xl'} key={index}>{`${framework},`}</li>
+                                                    {resumeData.technicalSkills.databases.map((database, index) => (
+                                                        <li className={'underline lg:text-xl text-1xl'} key={index}>{`${database},`}</li>
                                                     ))}
                                                 </ul>
                                             </div>
 
+                                            <div className={"flex gap-2 lg:mt-0 mt-5 "}>
+                                                <h1 className={"font-bold lg:text-xl text-xl"}>Tools:</h1>
+
+                                                <ul className={"flex flex-wrap gap-2 "}>
+                                                    {resumeData.technicalSkills.tools.map((tool, index) => (
+                                                        <li className={'underline lg:text-xl text-1xl'} key={index}>{`${tool},`}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
 
                                         </ul>
                                     </div>

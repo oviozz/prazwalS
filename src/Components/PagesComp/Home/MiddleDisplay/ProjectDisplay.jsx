@@ -5,7 +5,6 @@ import {projectDatas} from "../../../../Data/Projects.jsx";
 
 function ProjectDisplay(){
 
-
     const projectsItems = projectDatas.slice(0,3).map((project, index) => (
         <ProjectCard key={index} data={project}/>
     ))

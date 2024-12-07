@@ -8,9 +8,30 @@ import job4job from '/src/Components/Assests/job4job.png'
 import tastybites from '/src/Components/Assests/tastymeals.png'
 import movieReview from '/src/Components/Assests/movieReview.png'
 import nextSocialImage from '/src/Components/Assests/nextSocialImage.png'
+import madmolecule from '/src/Components/Assests/madmolecule.png'
+import watchdog from '/src/Components/Assests/watchdog.png'
+import wispyr from '/src/Components/Assests/wispyr.png'
 
 
 export const projectDatas = [
+    {
+        title: "Wispyr",
+        description: "Secure messaging web app using RSA encryption, designed to prioritize privacy and secure data retention.",
+        imageUrl: wispyr,
+        projectUrl: "https://wispyr.vercel.app"
+    },
+    {
+        title: "Watchdog - UC Berkeley",
+        description: "🔫🚨 Watchdog: your AI security cam that instantly spots guns, pinpoints their location, and alerts authorities to respond.",
+        imageUrl: watchdog,
+        projectUrl: "https://github.com/oviozz/watchDog-UC-Berkeley-2025-"
+    },
+    {
+        title: "Mad Molecool",
+        description: "An electronic lab notebook implementation with a biochemically aware fine-tuned LLM chatbot. Optimized for molecular biologists with a focus on usability and advanced functionality.",
+        imageUrl: madmolecule,
+        projectUrl: "https://github.com/fchau1/MadMolecool"
+    },
     {
         title: "csulbClass",
         description:

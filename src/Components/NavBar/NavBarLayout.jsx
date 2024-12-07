@@ -2,12 +2,12 @@
 import NavBar from "./NavBar.jsx";
 import './NavBarLayout.css'
 
-function NavBarLayout(props){
+function NavBarLayout({children}){
 
     return (
         <div className={"max-wrapper"}>
             <NavBar />
-            {props.children}
+            {children}
         </div>
     )
 
